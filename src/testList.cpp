@@ -7,26 +7,26 @@ int main() {
     List list;
 
     // Append nodes to the list
-    list.Append(100);
+    list.Append("Doug", "Salane", 60000);
     list.Print();
-    list.Append(200);
+    list.Append("Tina", "Wolf", 2550);
     list.Print();
-    list.Append(300);
+    list.Append("Maggie", "Smith", 300);
     list.Print();
-    list.Append(400);
+    list.Append("Eva", "Fernandez", 80000);
     list.Print();
-    list.Append(500);
+    list.Append("Jeff", "Coots", 1000);
     list.Print();
 
     // Delete nodes from the list
-    list.Delete(400);
+    list.Delete(80000);
     list.Print();
     list.Delete(300);
     list.Print();
-    list.Delete(200);
+    list.Delete(2550);
     list.Print();
-    list.Delete(500);
+    list.Delete(1000);
     list.Print();
-    list.Delete(100);
+    list.Delete(60000);
     list.Print();
 }
